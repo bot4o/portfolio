@@ -48,11 +48,13 @@ header .logo {
     align-items: center;
     justify-content: space-between;
 }
+
 header .logo .logo-text {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 36px;
 }
+
 header .logo img {
     height: 100px;
     margin-right: 50px;
@@ -82,6 +84,10 @@ header nav img {
     margin: 0 250px;
     border-collapse: collapse;
 }
+.main .main-item {
+    margin-top: 50px;
+    max-width: 100%
+}
 .main ul {
     margin: 0 25px 0 25px!important;
     padding: 0;
@@ -94,9 +100,6 @@ header nav img {
     text-transform: uppercase;
 }
 
-.main .main-item {
-    margin-top: 50px;
-}
 /* TABLE */
 .main .main-work table {
     width: 100%;
