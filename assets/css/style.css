@@ -19,14 +19,8 @@ code {
     padding: 3px 10px;
 }
 pre {
-    margin-top: 1.6rem;
-    margin-right: 0px;
-    margin-bottom: 1rem;
-    margin-left: 0px;
+    margin-top: 20px;
     padding: 0 1.6rem;
-    tab-size: 2;
-    height: max-content;
-    
 }
 pre code {
     letter-spacing: 0;
@@ -89,7 +83,7 @@ header nav img {
     border-collapse: collapse;
 }
 .main ul {
-    margin: 0 25px;
+    margin: 0 25px 0 25px!important;
     padding: 0;
 }
 .main ul li{
