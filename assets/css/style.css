@@ -24,6 +24,8 @@ pre code {
     padding: 0;
     height: max-content;
 }
+
+/* HEADER */
 header {
     display: flex;
     flex-direction: row;
@@ -100,7 +102,26 @@ header nav img {
     text-transform: uppercase;
 }
 
-/* TABLE */
+.main .wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.main .wrapper .main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+}
+
+.main .wrapper .profile { 
+    margin-top: 50px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
 .main .main-work table {
     width: 100%;
     border-collapse: collapse;
